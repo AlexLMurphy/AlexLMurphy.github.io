@@ -1,2 +1,0 @@
-# AlexLMurphy.github.io
-Website

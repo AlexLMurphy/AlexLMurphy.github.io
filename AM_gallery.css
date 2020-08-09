@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+/*
+
+		Style sheet of Alex L. Murphy's website.
+		Author: Alex Murphy
+		Date:   4/21/20
+
+		Filename: Home.html
+
+*/
+
+#override1 {
+	background-color: rgb(185, 217, 235); /* CU Color */
+	font-family: Georgia, serif;   
+	color: white;
+}
+
+article, footer, hr {
+	background-color: rgb(45, 42, 98); /* navy blue */
+	margin-left: auto;  /* set to auto for horizontal centering */
+	margin-right: auto; /* set to auto for horizontal centering */
+	font-size: 1.2em;
+	line-height: 1.3em; /* Overrides style sheet of 1em height */
+	width: 100%;
+	/*outline: 1px solid black;*/
+}
+
+@media screen and (max-width: 768px) {		
+}
+
+@media screen and (min-width: 769px) {
+}
+
+#return {
+	color: white;
+	text-decoration: none;
+}
+
+img { 	
+	margin-left: 15%; /* margin: auto doesn't work without setting
+					     a display property, but setting any display
+						 property causes the link to be clickable from
+						 outside the image. */
+	width: 70%;
+	border: 0; /* Something needed for IE9 and earlier */
+}
+
+footer {
+	text-align: center;
+	/*background: linear-gradient(to left, rgb(45, 42, 98), white 20%, white 50%, white 80%, rgb(45, 42, 98));*/
+}
+
+a {
+	color: red;
+}
+
+hr {
+	padding-bottom: 1em;
+	border-bottom: 1px solid white;  /* 1px thick line */
+}
+
+h1, p, figcaption {
+	text-align: center;
+}
+
+figure {
+	padding-top: 1em;
+}
+
+figure img {
+	outline: 1px solid white;
+}
+
+figure figcaption {
+	padding: 5px;
+	color: white;
+	font-size: 0.9em;
+}
+
+figcaption {
+	margin-top: 1em;
+	margin-left: 10%;
+	margin-right: 10%;
+	border: 5px outset white;
+}
+
+* {
+	
+}

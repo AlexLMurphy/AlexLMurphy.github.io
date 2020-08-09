@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/*
+
+		Print style sheet of Alex L. Murphy's website.
+		Author: Alex Murphy
+		Date:   4/21/20
+
+		Filename: AM_print.css
+
+*/
+
+html, body, figure figcaption, footer {
+	background-color: white;
+	color: black;
+	border: none;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a::after {
+	content: " (" attr(href) ") ";
+	font-weight: bold;
+	word-wrap: break-word;
+}
+
+.Navigation {
+	display: none;
+}

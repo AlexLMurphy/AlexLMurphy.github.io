@@ -43,15 +43,15 @@
 				<br />
 				<h1 style="color: red;">Note: <em>This form currently does not work.</em></h1>
 				<br />
-				<form id="survey" action="http://alexlmurphy.com/Contact/Form" method="post" enctype="multipart/form-data">
+				<form id="contactForm" action="AM_formSubmit.php" method="post" enctype="multipart/form-data"> <!-- add action= -->
 					<fieldset id="contactInfo">
 						<!-- <legend>Contact Form</legend> -->
 						<div class="formRow">
 							<label for="Name">Name*</label>
 						</div>
 						<div class="formRow">
-							<input name="cFirstName" id="fName" autocomplete="off" type="text" spellcheck="false" minlength="2" maxlength="30" required disabled/>
-							<input name="cLastName" id="lName" autocomplete="off" type="text" spellcheck="false" minlength="2" maxlength="30" required disabled/>
+							<input name="cFirstName" id="fName" autocomplete="off" type="text" spellcheck="false" minlength="2" maxlength="30" required />
+							<input name="cLastName" id="lName" autocomplete="off" type="text" spellcheck="false" minlength="2" maxlength="30" required />
 						</div>
 						<div class="formRow">
 							<span class="caption-text" style="margin-right: 20px;">First Name</span>
@@ -61,30 +61,28 @@
 							<label for="email">Email Address*</label>
 						</div>
 						<div class="formRow">
-							<input name="cEmail" id="email" autocomplete="off" type="email" spellcheck="false" minlength="3" required disabled/>
+							<input name="cEmail" id="email" autocomplete="off" type="email" spellcheck="false" minlength="3" required />
 						</div>
 						<div class="formRow">
 							<label for="subject">Subject*</label>
 						</div>
 						<div class="formRow">
-							<input name="cSubject" id="subject" autocomplete="off" type="text" minlength="2" required disabled/>
+							<input name="cSubject" id="subject" autocomplete="off" type="text" minlength="2" required />
 						</div>
 						<div class="formRow">
 							<label for="message">Message*</label>
 						</div>
 						<div class="formRow">
-							<textarea name="cMessage" id="message" minlength="7" required disabled></textarea>
+							<textarea name="cMessage" id="message" minlength="7" required ></textarea>
 						</div>
 					</fieldset>
 					
 					<div id="buttons">
-						<input id="button" type="submit" value="Submit" />
+						<input id="button" type="submit" name="submit" value="Submit" />
 					</div>
 				</form>
 				<hr />
-			</article>
-
-			
+			</article>	
 			
 			<footer>
 				<!-- &copy; Copyright 2020-2025 Alex Murphy -->

@@ -26,7 +26,9 @@ function setForm() {
    document.forms[0].onsubmit = function() {
       if (this.checkValidity()) {
 		  alert("Form was submitted successfully.");
-		  
+		  let form = document.getElementById("contactForm");
+		  console.log(form);
+		  console.log(form.fName.value);
 	  }
 	  
       return false; // change to true?

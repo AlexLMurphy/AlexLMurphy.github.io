@@ -274,12 +274,15 @@ input, textarea {
 	border-radius: 10px;
 	border: 1px inset rgb(155, 155, 155);
 	padding: 5px;
-	background-color: rgb(170, 170, 170); /* Delete this line later */
+	/* background-color: rgb(170, 170, 170); enable when the form is not working */
+	background-color: rgb(225, 225, 225);
 }
 
 textarea {
 	height: 80px;
 	margin-bottom: 0px;
+	resize: vertical;
+	min-height: 2em;
 }
 
 fieldset {

@@ -12,6 +12,6 @@ if (isset($_POST['submit'])) {
 	$text = "You have received an email from alexlmurphy.com!\n\n".$cMessage
 	
 	mail($mailTo, $cSubject, $cMessage, $header);
-	header("Location: index.php?mailsend");
+	header("Location: index.html?mailsend");
 }
 

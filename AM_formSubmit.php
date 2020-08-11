@@ -1,5 +1,5 @@
 <?php
-
+header("Location: contact.html?mailnotsend");
 if (isset($_POST['submit'])) {
 	$cFirstName = $_POST['cFirstName'];
 	$cLastName = $_POST['cLastName'];
@@ -14,4 +14,3 @@ if (isset($_POST['submit'])) {
 	mail($mailTo, $cSubject, $cMessage, $header);
 	header("Location: index.html?mailsend");
 }
-

@@ -43,6 +43,14 @@
 				<br />
 				<h1 style="color: red;">Note: <em>This form currently does not work.</em></h1>
 				<br />
+				
+				<?php
+				if (isset($_POST['submit'])) {
+					echo "First name: ".$_POST['cFirstName']
+				}
+				
+				?>
+				
 				<form id="contactForm" action="www.alexlmurphy.com/AM_formSubmit.php" method="post"> <!-- add action= -->
 					<fieldset id="contactInfo">
 						<!-- <legend>Contact Form</legend> -->

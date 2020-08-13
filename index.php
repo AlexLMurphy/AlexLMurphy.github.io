@@ -45,13 +45,12 @@
 				<br />
 				
 				<?php
-				if (isset($_POST['submit'])) {
-					echo "First name: ".$_POST['cFirstName']
-				}
-				
+					if (isset($_POST['submit'])) {
+						echo "First name: ".$_POST['cFirstName']
+					}
 				?>
 				
-				<form id="contactForm" action="www.alexlmurphy.com/AM_formSubmit.php" method="post"> <!-- add action= -->
+				<form id="contactForm" action="" method="POST">
 					<fieldset id="contactInfo">
 						<!-- <legend>Contact Form</legend> -->
 						<div class="formRow">

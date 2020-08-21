@@ -255,11 +255,14 @@ li#here {
 	color: white;
 	font-size: 1.1em;
 	font-family: sans-serif;
+	border: 2px outset rgb(45, 42, 98); /* Looks like an inset border by default */
 	border-radius: 15px;
 }
 
 #button:hover {
-	background: rgb(65, 62, 118);
+	/* 65, 62, 118 70, 67, 134*/
+	border: 2px solid rgb(95, 95, 160); 
+	background: rgb(95, 95, 160);
 }
 
 input, textarea {

@@ -28,7 +28,8 @@ if (titles.length > 0) {
 	}
 }
 
-// Initial checkup on screen width and accompanying adjustments
+// Initial checkup on screen width and other adjustments,
+// the user may never resize the page.
 if (currentWidth < 1247) {
 	var newUl = "";
 	var ulList = document.getElementsByTagName("ul");
@@ -36,7 +37,6 @@ if (currentWidth < 1247) {
 		var entry = ulList[id];
 		var text = String(entry.innerHTML);
 		if (text.includes("Alex L. Murphy")) {
-			var entry = ulList[id];
 			// var text = String(entry.innerHTML);
 			var textarray = entry.innerHTML.split("</li>");
 			for (ids in textarray) {
@@ -105,7 +105,6 @@ window.onresize = function() {
 				var entry = ulList[id];
 				var text = String(entry.innerHTML);
 				if (text.includes("Alex L. Murphy")) {
-					var entry = ulList[id];
 					// var text = String(entry.innerHTML);
 					var textarray = entry.innerHTML.split("</li>");
 					for (ids in textarray) {
@@ -152,7 +151,6 @@ window.onresize = function() {
 				var entry = navList[id];
 				var text = String(entry.innerHTML);
 				if (text.includes("Alex L. Murphy")) {
-					let entry = navList[id];
 					let temp = entry.innerHTML.split("</li>");
 					let counter = 0;
 					for (id in temp) {

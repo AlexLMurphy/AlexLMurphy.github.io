@@ -50,7 +50,7 @@ if (currentWidth < 1247) {
 			
 			if (pageTitle != "Alex L. Murphy") {
 					theNav.innerHTML = "<li style='list-style: none; list-style-image: " +
-					"none;'><a href='Home.html'>Alex L. Murphy</a></li>" + theNav.innerHTML;
+					"none;'><a href='/'>Alex L. Murphy</a></li>" + theNav.innerHTML;
 					
 			} else if (pageTitle == "Alex L. Murphy") {
 				theNav.innerHTML = "<li id='here' style='list-style: none; list-sty" + 
@@ -118,7 +118,7 @@ window.onresize = function() {
 					theNav = document.getElementsByTagName("nav")[0];
 					if (pageTitle != "Alex L. Murphy") {
 							theNav.innerHTML = "<li style='list-style: none; list-style-image: " +
-							"none;'><a href='Home.html'>Alex L. Murphy</a></li>" + theNav.innerHTML;
+							"none;'><a href='/'>Alex L. Murphy</a></li>" + theNav.innerHTML;
 							
 					} else if (pageTitle == "Alex L. Murphy") {
 						theNav.innerHTML = "<li id='here' style='list-style: none; list-sty" + 
@@ -164,7 +164,7 @@ window.onresize = function() {
 							}
 							if (counter == 2) {
 								if (pageTitle != "Alex L. Murphy") {
-									newNav += "<li><a href='Home.html'>Alex L. Murphy</a></li>";
+									newNav += "<li><a href='/'>Alex L. Murphy</a></li>";
 								} else if (pageTitle == "Alex L. Murphy") {
 									newNav += "<li id='here'>Alex L. Murphy</li>";
 								}

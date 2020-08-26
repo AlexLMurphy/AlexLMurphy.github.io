@@ -55,6 +55,10 @@ p {
 		flex: 1 1 100%;
 		-webkit-flex: 1 1 100%;
 	}
+	
+	#box-shadow {
+		width: 100%;
+	}
 }
 
 @media screen and (min-width: 769px) {
@@ -168,10 +172,6 @@ img#Datalogger {
 	float: right; 
 	width: 37%;
 	outline: 1px solid black;
-}
-
-div.Images > img {
-	width: 49%;
 }
 
 .Navigation {

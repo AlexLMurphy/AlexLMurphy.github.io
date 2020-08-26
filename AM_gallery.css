@@ -32,11 +32,6 @@ article, footer, hr {
 @media screen and (min-width: 769px) {
 }
 
-#return {
-	color: white;
-	text-decoration: none;
-}
-
 img { 	
 	margin-left: 15%; /* margin: auto doesn't work without setting
 					     a display property, but setting any display
@@ -44,6 +39,7 @@ img {
 						 outside the image. */
 	width: 70%;
 	border: 0; /* Something needed for IE9 and earlier */
+	cursor: pointer;
 }
 
 footer {
@@ -53,6 +49,10 @@ footer {
 
 a {
 	color: red;
+}
+
+div.Images > img {
+	width: 49%;
 }
 
 hr {

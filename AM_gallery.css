@@ -62,6 +62,7 @@ hr {
 
 h1, p, figcaption {
 	text-align: center;
+	margin-left: 0em;
 }
 
 figure {

@@ -68,12 +68,12 @@ if (currentWidth < 1247) {
 		HC.style.margin = "0px 1em 0em 1em";
 		HC.style.padding = "1em 13vw 0em 13vw";
 		
-		let CU = document.getElementById("CU");
-		CU.style.borderLeft = "none";
-		CU.style.float = "none";
-		CU.style.width = "calc(100% - 2em)";
-		CU.style.margin = "-1px 1em 0em 1em";
-		CU.style.padding = "1em 0em 1em 0em";
+		let UNH = document.getElementById("UNH");
+		UNH.style.borderLeft = "none";
+		UNH.style.float = "none";
+		UNH.style.width = "calc(100% - 2em)";
+		UNH.style.margin = "-1px 1em 0em 1em";
+		UNH.style.padding = "1em 0em 1em 0em";
 	}
 } else {
 	isShort = false;
@@ -85,12 +85,12 @@ if (currentWidth < 1247) {
 		HC.style.margin = "1.3em 1em 0em 1vw";
 		HC.style.padding = "1em 6.5vw 1em 6.5vw";
 		
-		let CU = document.getElementById("CU");
-		CU.style.float = "right";
-		CU.style.borderLeft = "1px solid black";
-		CU.style.width = "calc(50% - 1em)";
-		CU.style.margin = "-1px 1em 0em 1vw";
-		CU.style.padding = "1em 1vw 1em 1vw";
+		let UNH = document.getElementById("UNH");
+		UNH.style.float = "right";
+		UNH.style.borderLeft = "1px solid black";
+		UNH.style.width = "calc(50% - 1em)";
+		UNH.style.margin = "-1px 1em 0em 1vw";
+		UNH.style.padding = "1em 1vw 1em 1vw";
 	}
 }
 
@@ -135,12 +135,12 @@ window.onresize = function() {
 				HC.style.margin = "0px 1em 0em 1em";
 				HC.style.padding = "1em 13vw 0em 13vw";
 				
-				let CU = document.getElementById("CU");
-				CU.style.borderLeft = "none";
-				CU.style.float = "none";
-				CU.style.width = "calc(100% - 2em)";
-				CU.style.margin = "-1px 1em 0em 1em";
-				CU.style.padding = "1em 0em 1em 0em";
+				let UNH = document.getElementById("UNH");
+				UNH.style.borderLeft = "none";
+				UNH.style.float = "none";
+				UNH.style.width = "calc(100% - 2em)";
+				UNH.style.margin = "-1px 1em 0em 1em";
+				UNH.style.padding = "1em 0em 1em 0em";
 			}
 		}
 	} else {
@@ -183,12 +183,12 @@ window.onresize = function() {
 				HC.style.margin = "1.3em 1em 0em 1vw";
 				HC.style.padding = "1em 6.5vw 1em 6.5vw";
 				
-				let CU = document.getElementById("CU");
-				CU.style.float = "right";
-				CU.style.borderLeft = "1px solid black";
-				CU.style.width = "calc(50% - 1em)";
-				CU.style.margin = "-1px 1em 0em 1vw";
-				CU.style.padding = "1em 1vw 1em 1vw";
+				let UNH = document.getElementById("UNH");
+				UNH.style.float = "right";
+				UNH.style.borderLeft = "1px solid black";
+				UNH.style.width = "calc(50% - 1em)";
+				UNH.style.margin = "-1px 1em 0em 1vw";
+				UNH.style.padding = "1em 1vw 1em 1vw";
 			}
 		}
 	}

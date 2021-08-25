@@ -12,7 +12,7 @@
 
 html {
 	/* background-color: rgba(97, 46, 138, 1); /* HC Color */
-	background-color: rgb(185, 217, 235); /* CU color */
+	background-color: rgb(62, 116, 162);
 	font-family: Georgia, serif; 
 	/* background: rgb(185, 217, 235) url(potentialbackground2.png) repeat; */
 }
@@ -27,6 +27,11 @@ article, footer, hr  {
 
 article {
 	padding-top: 0.7em;
+}
+
+div#home {
+	padding-left: 30%;
+	padding-right: 30%;
 }
 
 h1 {
@@ -84,7 +89,7 @@ p {
 		-webkit-flex: 1 1 20%;
 	}
 	
-	img#CU, img#HC {
+	img#HC, img#UNH {
 		border-left: 1px solid black;
 	}
 }
@@ -96,9 +101,9 @@ article > img#Head {
 	margin-right: auto;
 	background-color: rgb(45, 42, 98); /* navy blue */
 	margin-bottom: 1em;
-	filter: saturate(1); /* consider saturation */
+	filter: saturate(1.2); /* consider saturation */
 	padding: 7px;
-	max-width: 350px;
+	max-width: 450px;
 	background-size: cover;
 }
 
@@ -110,10 +115,19 @@ img#HC {
 	padding: 1em 6.5vw 1em 6.5vw; /* Horizontal padding for apparent aspect ratio */
 }
 
+img#UNH {
+	display: block;
+	float: right;
+	width: calc(50% - 1em);
+	margin: 0em 1em 0em 1vw;
+	padding: 1em 2.5vw 1em 2.5vw;
+}
+
 img#Datalogger {
 	margin: 0em 1em 0em 1em;
 	display: block;
 	float: right; 
+	clear: both;
 	width: 37%;
 	outline: 1px solid black;
 }

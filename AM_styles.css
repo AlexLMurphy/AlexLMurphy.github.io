@@ -29,10 +29,7 @@ article {
 	padding-top: 0.7em;
 }
 
-div#home {
-	padding-left: 30%;
-	padding-right: 30%;
-}
+
 
 h1 {
 	margin-left: 1em;
@@ -65,6 +62,11 @@ p {
 	#box-shadow {
 		width: 100%;
 	}
+	
+	div#home {
+	/*padding-left: 30%; */
+	/*padding-right: 30%; */
+	}
 }
 
 @media screen and (min-width: 769px) {
@@ -91,6 +93,11 @@ p {
 	
 	img#HC, img#UNH {
 		border-left: 1px solid black;
+	}
+	
+	div#home {
+	padding-left: 30%;
+	padding-right: 30%;
 	}
 }
 

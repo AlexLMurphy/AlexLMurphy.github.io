@@ -12,3 +12,4 @@ function showImage(self) {
 		self.isMagnified = false;
 	}
 }
+

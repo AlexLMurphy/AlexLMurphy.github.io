@@ -12,9 +12,9 @@
 
 html {
 	/* background-color: rgba(97, 46, 138, 1); /* HC Color */
-	background-color: rgb(62, 116, 162);
+	/* background-color: rgb(62, 116, 162); */ /* UNH Color */
 	font-family: Georgia, serif; 
-	/* background: rgb(185, 217, 235) url(potentialbackground2.png) repeat; */
+	background: rgb(185, 217, 235) url(thebackground.png) repeat;
 }
 
 article, footer, hr  {
@@ -28,8 +28,6 @@ article, footer, hr  {
 article {
 	padding-top: 0.7em;
 }
-
-
 
 h1 {
 	margin-left: 1em;
@@ -61,11 +59,6 @@ p {
 	
 	#box-shadow {
 		width: 100%;
-	}
-	
-	div#home {
-	/*padding-left: 30%; */
-	/*padding-right: 30%; */
 	}
 }
 
@@ -138,6 +131,15 @@ img#Datalogger {
 	width: 37%;
 	outline: 1px solid black;
 }
+
+/* .Title { */
+	/* font-family: Georgia, serif; */
+	/* padding-top: 0.5em; */
+	/* padding-bottom: 0em; */
+	/* text-align: center; */
+	/* font-size: 2em; */
+	/* margin-left: 0em; */
+/* } */
 
 .Navigation {
 	-moz-box-shadow: black 0px 0px 20px;
@@ -268,7 +270,7 @@ footer {
 
 hr {
 	padding-bottom: 1em;
-	/* border-bottom: 1px solid black;  /* 1px thick line */
+	/* border-bottom: 1px solid black;  /* 1px thick line */ */
 }
 
 * {

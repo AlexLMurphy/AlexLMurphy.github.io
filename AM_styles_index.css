@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+/*
+
+		Style sheet of Alex L. Murphy's website.
+		In particular, for the home page.
+		Author: Alex Murphy
+		Date:   5/17/24
+
+		Filename: AM_styles_index.css
+
+*/
+
+@media screen and (max-width: 768px) {	
+	body {
+		width: 100%;
+	}
+	
+	.Navigation a {
+		font-size: 1.4em;
+	}
+	
+	li#here {
+		font-size: 1.4em;
+	}
+	
+	.Navigation li {
+		flex: 1 1 100%;
+		-webkit-flex: 1 1 100%;
+	}
+	
+	#box-shadow {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 769px) {
+	#box-shadow {
+		width: 65%; /* Encompasses article, footer */
+		margin: auto;
+		-moz-box-shadow: black 0px 0px 20px;
+		-webkit-box-shadow: black 0px 0px 20px;
+		box-shadow: black 0px 0px 20px;
+	}
+	
+	.Navigation a {
+		font-size: 2em;
+	}
+	
+	li#here {
+		font-size: 2em;
+	}
+	
+	.Navigation li {
+		flex: 1 1 20%;
+		-webkit-flex: 1 1 20%;
+	}
+	
+	
+}
+
+.Navigation {
+	-moz-box-shadow: black 0px 0px 20px;
+	-webkit-box-shadow: black 0px 0px 20px;
+	box-shadow: black 0px 0px 20px;
+}
+
+.Navigation a {
+	display: block; /* makes the hyperlink into a block covering the whole element */
+	text-decoration: none;
+	font-variant: small-caps;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	color: rgb(45, 42, 98); /* navy blue */
+	padding-top: 0.7em;
+	padding-bottom: 0.7em;
+}
+
+.Navigation a:hover {
+	/*background-color: rgb(150, 150, 150);*/
+	background: linear-gradient(rgb(85, 85, 85), rgb(185, 185, 185), rgb(85, 85, 85));
+}
+
+.Navigation li {
+	/*background-color: rgb(210, 210, 210);*/
+	background: linear-gradient(rgb(155, 155, 155), white, rgb(155, 155, 155));
+	text-align: center;
+}
+
+.Navigation ul {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+
+}
+
+li#here {
+	background: rgb(45, 42, 98);
+	padding-top: 0.7em;
+	padding-bottom: 0.7em;
+	/* font-size: 1.50vmax; */
+	font-family: Arial, sans-serif;
+	font-variant: small-caps;
+	font-weight: bold;
+	color: rgb(247, 247, 247); /* very close to white */
+}

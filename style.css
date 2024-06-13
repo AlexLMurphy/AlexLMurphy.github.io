@@ -256,9 +256,9 @@ main img {
 }
 
 .project-container {
-    width: 80%;
+    width: 90%;
     text-align: center;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-top: 0.7em;
     align-items: center;
     /* border: 2px solid black; */

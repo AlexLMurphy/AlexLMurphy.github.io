@@ -13,7 +13,7 @@
     <link href="AM_RESET.css" rel="stylesheet" />
     <link href="AM_styles_index.css" rel="stylesheet" />
     <link href="AM_print.css" rel="stylesheet" media="print" />
-    <link rel="stylesheet" href="style.css?v=1.1">
+    <link rel="stylesheet" href="style.css?v=1.2">
     <title>Alex Murphy</title>
 </head>
 <body>
@@ -49,7 +49,7 @@
             <div class="header">Experience</div>
         </article>
         <div id="experiences1" class="experience-column">
-            <h3>Programming Languages</h3>
+            <h3>Languages</h3>
             <p>Python</p>
 			<p>C / C++</p>
 			<p>Swift</p>
@@ -79,7 +79,7 @@
                 <div class="projectdetails">
                     <h2>Slide Puzzlr</h2><em>A Python (PyGame) Application by Alex Murphy</em><br />
                     <p><br />
-                    A project intended to demonstrate
+                    Slide Puzzlr is a project intended to demonstrate
                     modular development capabilities,
                     as well as the utilization of classes
                     and functional programming. This classic
@@ -90,11 +90,18 @@
                     tile movement animations, sounds, and
                     a victory celebration, Slide Puzzlr 
                     goes a step beyond your typical 
-                    end-of-semester project. Stay tuned
-                    for a video recording of Slide Puzzlr
-                    in action!<br /><br /></p>
+                    end-of-semester project. Although I 
+                    have not done a voiceover or code showcase
+                    of this project, you can watch a brief 2-minute
+                    video of the project in action on my YouTube
+                    channel here:<br /><br /></p>
+                    <p style="text-align: center;">
+                    <a href="https://www.youtube.com/watch?v=HurRUS5C8Lg">
+                        SlidePuzzlr (no voiceover): A PyGame implementation of a classic puzzle
+                    </a>
+                    <br /><br /></p>
                 </div>
-                <img src="SlidePuzzlr2.png" alt="Slide Puzzler">
+                <img src="SlidePuzzlr3.png" alt="Slide Puzzler">
             </div>
 
             <div class="project-container">
@@ -108,7 +115,7 @@
                     fun with animations, progress scoring, 
                     retakable quizzes, and a small leaderboard.
                     To see more, visit our short 10-minute
-                    demo <a href="https://www.youtube.com/watch?v=pAevcVU9cjY">here on Youtube.</a>
+                    demo <a href="https://www.youtube.com/watch?v=pAevcVU9cjY">here on YouTube.</a>
                     <br /><br /></p>
                 </div>
                 <img src="MathMindset2.png" alt="MathMindset">
@@ -121,10 +128,10 @@
                     Motivated by enthusiasm for engine programming, I sought to
                     develop my own chess engine after watching today's top chess
                     engines compete in real time on popular websites. What captivated
-                    me the most was how far programmers have gone to analyze the game
-                    on any given turn, and how engines have become so intelligent that
-                    they play in ways that no human could anticipate. 
-                    I'm inviting you to observe the progress I've made on ChessCharger,
+                    me the most was how far programmers have gone to analyze the game,
+                    and how chess engines have become so intelligent that
+                    they play in ways that no human player could anticipate. 
+                    I am inviting you to observe the progress I've made on ChessCharger,
                     which is summarized in these three 10-minute YouTube videos,
                     where Part 3 is the latest version:
                     </p><br />
@@ -136,7 +143,7 @@
                     <p>While ChessCharger is not yet an AI, I can tell you that the transition to being an AI
                     can be relatively quick when done crudely. However, actually tuning the parameters
                     that would guide the engine's analysis can be time-consuming because
-                    this requires simulating many games. This process is reminiscent of supervised
+                    this requires simulating many games. This parameter-tuning process is reminiscent of supervised
                     machine learning, and can be done with or without automation. 
                     <br /><br /></p>
                 </div>
@@ -173,15 +180,40 @@
         </article>
 
         <article id="blog">
-            <div class="header">Blog</div>
-            <p>I plan on writing this blog in the future, mostly
-                because I cannot think of anything to blog about. Sorry!</p>
+        <div class="header">Blog</div>
+            <div class="blog-container">
+                <div class="header">The Cursor Challenge</div>
+                <p>For those who may be curious: in some of my YouTube videos I am using a custom
+                cursor that resembles a red sword. This cursor is actually a doctored image
+                of an iconic item in an old video game. The "inside joke" about this cursor
+                is that previously, many players who sought after such a cursor had
+                unknowingly installed malware on their computers instead.<br /><br />
+                
+                <img src="redsword.png" alt="red sword">
+                <span class="caption"><em>Can you tell where the hotspot is?</em></span>
+                <br /><br />
+
+                Having the advanced image-manipulation capabilities I do now, I wanted to try making my own cursor
+                without using any untrusted third-party software. After all, Python has a library
+                that can handle the file conversion.
+                While this should have been as simple as clipping a screenshot and making the 
+                background transparent, I ran into an interesting issue.
+                The default location for the "hotspot" of
+                the cursor was in the wrong corner. To solve this, I had to manually edit
+                the binary data within the cursor file to change where the hotspot was located
+                (following the not-so-intuitive file format explanation 
+                <a href="https://en.wikipedia.org/wiki/ICO_(file_format)">here on Wikipedia</a>).
+                The whole task took three short Python scripts: one to strip away the background
+                and replace it with transparent pixels, one to handle the file conversion, and lastly
+                one to edit the converted file.</p>
+                <div style="text-align: right; margin-right: 1em;"><em>—Alex Murphy 6/21/2024</em></div>
+            </div>
         </article>
 
         <footer id="footer">
             <div id="github">
                 <a href="https://github.com/AlexLMurphy"><img src="github.jpg" alt=""></a>
-                <p class="footerp">Find me on GitHub!</p>
+                <p class="footerp">Find me on GitHub!<br />However, most of my work is private.</p>
             </div>
             
             <div id="x">

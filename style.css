@@ -329,8 +329,8 @@ footer {
 footer #github {
     margin-top: 1em;
     margin-bottom: 1em;
-    float: left;
-    margin-left: 1em;
+    /* float: left;
+    margin-left: 1em; */
     color: white;
 }
 
@@ -343,7 +343,7 @@ footer #x {
 }
 
 .footerp {
-    display: flex;
+    /* display: flex; */
     margin-top: auto;
     vertical-align: middle;
     color: white;
@@ -354,6 +354,7 @@ footer #x {
 
 footer img {
     width: 100px;
+	border-radius: 10px;
 }
 
 .clear {
